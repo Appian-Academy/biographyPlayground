@@ -57,6 +57,14 @@ let myAge = currentYear - myBirthYear
 
 print(myAge)
 
+var hobbyArray: [String] = []
+hobbyArray.append(hobby1)
+hobbyArray.append(hobby2)
+hobbyArray.append(hobby3)
+
+// One line solution
+// hobbyArray += [hobby1, hobby2, hobby3]
+
 let floatVsDouble = """
     The main difference of a Float and Double is how many characters they can host. This is best described by showcasing how many digits they can print. A Double will print more characters as showcased here. A Double prints \(aDouble) and a Float prints \(aFloat).
     """
